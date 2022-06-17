@@ -1,0 +1,121 @@
+/***flex container*********/
+.container {display:flex;
+margin:100px;
+}
+.header{background: #256490;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  line-height: 25px;
+  text-align: center;
+  
+  
+  
+  font: 600 17px sans-serif;
+}
+a{text-decoration:none;
+color:#fff ;}
+/****nested flex*****/
+.nested{display:flex;
+flex-direction: column;
+}
+/********main section of  cards**/
+.main{margin:0px 30px;
+margin-bottom: 70px;
+color: hsla(0,0%,100%,0.75);
+font-size:15px;
+font-family: 'Lexend Deca', sans-serif;
+}
+/********logo******/
+.logo{height: 40px;
+width: 40px;
+margin: 10px 30px;
+}
+
+img{height: 100%;
+width: 100%;}
+
+
+/********buttons********/
+button{height: 30px;
+text-align: center;
+line-height: 3px;
+border-radius: 25px;
+padding:15px;
+font-size: 15px;
+border: 1px solid orange;
+border-style: hidden;
+font-family: 'Lexend Deca', sans-serif;
+background: hsl(0,0%,95%);
+color: hsla(0,0%,100%,0.75);
+}
+.butn,.butn2,.butn3{margin-left: 30px;
+  
+}
+
+/*******hovers ********/
+.b1:hover{border:2px solid #fff;
+background:hsl(31,77%,52%);
+color: #fff !important;
+cursor: hand;
+}
+
+.b2:hover{border:2px solid #fff;
+background:hsl(184,100%,22%);
+color:#fff !important;
+cursor: hand;
+}
+
+.b3:hover{border:2px solid #fff;
+background:hsl(179,100%,13%);
+ color: white !important;
+ cursor: hand;
+}
+/**********headings*********/
+.head{font-family: 'Big Shoulders Display', cursive;
+  font-size: 15px;
+  color: hsla(0,0%,100%,0.75);
+  margin:0px 30px;
+}
+
+/*********card section1********/
+.sec1{height:400px;
+width:480px;
+background: hsl(31,77%,52%);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+/*********card section2********/
+.sec2{height:400px;
+width: 480px;
+background:hsl(184,100%,22%);
+}
+
+/*********card section3********/
+.sec3{height:400px;
+width: 480px;
+background: hsl(179,100%,13%);
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+@media(max-width:600px){.sec1,.sec2,.sec3{width:375px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.container{
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:50px;
+}
+.sec3{border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;}
+
+.sec1{border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+}
