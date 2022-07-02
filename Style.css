@@ -1,6 +1,7 @@
 /***flex container*********/
 .container {display:flex;
-margin:160px;
+margin:190px;
+ margin-top:20px;
  /* margin-left:500px;
   margin-right:500px;*/
 }
