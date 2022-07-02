@@ -1,8 +1,8 @@
 /***flex container*********/
 .container {display:flex;
 margin:100px;
-  margin-left:200px;
-  margin-right:200px;
+  margin-left:500px;
+  margin-right:500px;
 }
 .header{background: #256490;
   height: 50px;
