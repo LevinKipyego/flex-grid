@@ -1,8 +1,8 @@
 /***flex container*********/
 .container {display:flex;
-margin:500px;
-  margin-left:500px;
-  margin-right:500px;
+margin:200px;
+ /* margin-left:500px;
+  margin-right:500px;*/
 }
 .header{background: #256490;
   height: 50px;
@@ -83,7 +83,7 @@ background:hsl(179,100%,13%);
 
 /*********card section1********/
 .sec1{height:400px;
-width:350px;
+width:450px;
 background: hsl(31,77%,52%);
 border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
@@ -91,13 +91,13 @@ border-bottom-left-radius: 5px;
 
 /*********card section2********/
 .sec2{height:400px;
-width: 350px;
+width: 450px;
 background:hsl(184,100%,22%);
 }
 
 /*********card section3********/
 .sec3{height:400px;
-width: 350px;
+width: 450px;
 background: hsl(179,100%,13%);
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
